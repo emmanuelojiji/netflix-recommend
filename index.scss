@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Netflix-Bold';
+  src: url(./NetflixSans-Bold.woff2);
+}
+
+@font-face {
+    font-family: Netflix;
+    src: url(./NetflixSans-Regular.woff2);
+  }
+
+  @font-face {
+    font-family: 'Netflix-Light';
+    src: url(./NetflixSans-Light.woff2);
+  }
+
+body {
+  background: #221f1f;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.page-width {
+  max-width: 1700px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.logo {
+  width: 100px;
+}
+
+header {
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  .avatar {
+    width: 35px;
+  }
+}
+
+main {
+  flex: 1;
+  overflow: hidden;
+}
+
+.carousel-container {
+  height: 100%;
+  transition: 0.2s ease-in-out;
+}
+
+button {
+  font-size: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family:'Netflix-Light';
+  border-radius: 2px; 
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  border: 0;
+
+  &:hover{
+    background: white;
+    color: #221f1f;
+  }
+}
+
+.start{
+    background: #f40613 !important;
+    border: 0 !important;
+    color: white !important;
+    background: white !important;
+    color: #221f1f !important;
+}
+
+.option{
+    background:transparent;
+    border: solid 1px gray;
+    color: gray;
+    margin:10px;
+}
+
+.view {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Netflix-Bold;
+}
+
+p{
+  margin-bottom: 30px;
+  color: rgb(216, 216, 216);
+  font-size: 20px;
+  font-family: Netflix-Light;
+}

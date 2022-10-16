@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script type="module" src="./script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="page-width">
+      <img src="./logo.svg" alt="logo" class="logo" />
+      <img src="./avatar.png" alt="" class="avatar" />
+    </header>
+
+    <main class="page-width">
+      <div class="carousel-container">
+        <div class="view view-1">
+          <h1>Not sure what to watch?</h1>
+          <p>Click begin, we'll pick something for you to watch based on your answers. </p>
+          <button class="start option">Begin</button>
+        </div>
+        <div class="view view-2">
+          <h1>Choose a genre</h1>
+          <div>
+            <button class="option genre" value="any">Any</button>
+            <button class="option genre" value="horror">Horror</button>
+            <button class="option genre" value="rom-com">Rom-com</button>
+            <button class="option genre" value="action">Action</button>
+            <button class="option genre" value="thriller">Thriller</button>
+            <button class="option genre" value="documentary">
+              Documentary
+            </button>
+            <button class="option genre" value="comedy">Comedy</button>
+          </div>
+        </div>
+
+        <div class="view view-3">
+          <h1>Would you like to watch a tv show or movie?</h1>
+          <div>
+            <button class="option">Any</button>
+            <button class="option type tv" value="tv">Tv show</button>
+            <button class="option type movie" value="movie">Movie</button>
+          </div>
+        </div>
+
+        <div class="view tv-question">
+          <h1>How many seasons?</h1>
+          <div>
+            <button class="option type">1</button>
+            <button class="option type">2</button>
+            <button class="option type">3</button>
+            <button class="option type">More than 3</button>
+          </div>
+        </div>
+
+        <div class="view movie-question">
+          <h1>Choose length of movie</h1>
+          <div>
+            <button class="option">Any</button>
+            <button class="option">Less than an hour</button>
+            <button class="option">1-2 hours</button>
+            <button class="option">More than 2 hours</button>
+          </div>
+        </div>
+
+       
+
+        <div class="view">
+          <h1>Choose rating</h1>
+          <div>
+            <button class="option">1+</button>
+            <button class="option">2+</button>
+            <button class="option">3+</button>
+            <button class="option">4+</button>
+            <button class="option">5</button>
+          </div>
+        </div>
+
+        <div class="view view-7">
+          <h1>Recommendation Results</h1>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
