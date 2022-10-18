@@ -87,13 +87,15 @@ button {
   perspective: 100px;
   gap: 50px;
   margin-bottom: 50px;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
 }
 
 .box{
   width: 200px;
   height: 200px;
   animation: turn-to-circle 2s 1s forwards;
-  transition: 0.3s ease-in-out;
+  transition: 1s ease-in-out;
   
 
   &:nth-child(1){
