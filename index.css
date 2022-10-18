@@ -54,6 +54,7 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: fixed;
 }
 
 header .avatar {
@@ -65,6 +66,8 @@ main {
       -ms-flex: 1;
           flex: 1;
   overflow: hidden;
+  background-size: cover;
+  background-position: ce;
 }
 
 .carousel-container {

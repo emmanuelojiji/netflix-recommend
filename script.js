@@ -80,4 +80,32 @@ window.onload = () => {
   setTimeout(() => {
     box2.style.transform = "translateX(120%)";
   }, 3500);*/
+
+  const main = document.querySelector('main')
+
+  box1.onmouseover = () => {
+    main.style.background = "linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./got.webp)"
+  
+    box1.onmouseout = () => {
+      main.style.background = "#221f1f"
+    }
+  }
+
+  box2.onmouseover = () => {
+    main.style.background = "linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./stranger-things.jpeg)"
+  
+    box2.onmouseout = () => {
+      main.style.background = "#221f1f"
+    }
+  }
+
+  box3.onmouseover = () => {
+    main.style.background = "linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./big-mouth.jpeg)"
+  
+    box3.onmouseout = () => {
+      main.style.background = "#221f1f"
+    }
+  }
+
+
 };
