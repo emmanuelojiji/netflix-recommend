@@ -63,7 +63,6 @@ window.onload = () => {
   setTimeout(() => {
     box1.style.transform = "rotateY(5deg)";
     box3.style.transform = "rotateY(-5deg)";
-   
   }, 550);
 
   /*setTimeout(() => {

@@ -6,7 +6,7 @@
 }
 
 @font-face {
-  font-family: 'Netflix-Bold';
+  font-family: "Netflix-Bold";
   src: url(./NetflixSans-Bold.woff2);
 }
 
@@ -16,7 +16,7 @@
 }
 
 @font-face {
-  font-family: 'Netflix-Light';
+  font-family: "Netflix-Light";
   src: url(./NetflixSans-Light.woff2);
 }
 
@@ -84,7 +84,7 @@ button {
   padding-bottom: 12px;
   padding-left: 50px;
   padding-right: 50px;
-  font-family: 'Netflix-Light';
+  font-family: "Netflix-Light";
   border-radius: 2px;
   cursor: pointer;
   -webkit-transition: 0.3s ease-in-out;
@@ -124,6 +124,10 @@ button:hover {
   width: 300px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  -webkit-transform: rotateY(0deg) !important;
+          transform: rotateY(0deg) !important;
+  cursor: pointer;
+  border: white 3px solid !important;
 }
 
 .box:nth-child(1) {

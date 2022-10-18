@@ -5,19 +5,19 @@
 }
 
 @font-face {
-  font-family: 'Netflix-Bold';
+  font-family: "Netflix-Bold";
   src: url(./NetflixSans-Bold.woff2);
 }
 
 @font-face {
-    font-family: Netflix;
-    src: url(./NetflixSans-Regular.woff2);
-  }
+  font-family: Netflix;
+  src: url(./NetflixSans-Regular.woff2);
+}
 
-  @font-face {
-    font-family: 'Netflix-Light';
-    src: url(./NetflixSans-Light.woff2);
-  }
+@font-face {
+  font-family: "Netflix-Light";
+  src: url(./NetflixSans-Light.woff2);
+}
 
 body {
   background: #221f1f;
@@ -60,7 +60,7 @@ main {
   transition: 0.2s ease-in-out;
 }
 
-.button-container{
+.button-container {
   width: 100%;
   max-width: 1000px;
 }
@@ -70,19 +70,19 @@ button {
   padding-bottom: 12px;
   padding-left: 50px;
   padding-right: 50px;
-  font-family:'Netflix-Light';
-  border-radius: 2px; 
+  font-family: "Netflix-Light";
+  border-radius: 2px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
   border: 0;
 
-  &:hover{
+  &:hover {
     background: white;
     color: #221f1f;
   }
 }
 
-.box-container{
+.box-container {
   display: flex;
   perspective: 100px;
   gap: 50px;
@@ -91,19 +91,21 @@ button {
   transition: 0.5s ease-in-out;
 }
 
-.box{
+.box {
   width: 200px;
   height: 200px;
   animation: turn-to-circle 2s 1s forwards;
   transition: 1s ease-in-out;
   border-radius: 5px;
-  &:hover{
+  &:hover {
     width: 300px;
     transition: 0.3s;
+    transform: rotateY(0deg) !important;
+    cursor: pointer;
+    border: white 3px solid !important;
   }
-  
 
-  &:nth-child(1){
+  &:nth-child(1) {
     background: #f40613;
     transform: translateX(100%);
     background: url(./got.webp);
@@ -111,16 +113,15 @@ button {
     background-position: center;
   }
 
-  &:nth-child(2){
+  &:nth-child(2) {
     background: #f40613;
     background: url(./stranger-things.jpeg);
     background-position: center;
     background-size: cover !important;
     width: 150px;
   }
-  
 
-  &:nth-child(3){
+  &:nth-child(3) {
     background: #f40613;
     transform: translateX(-100%);
     background: url(./big-mouth.jpeg);
@@ -129,21 +130,19 @@ button {
   }
 }
 
-
-
-.start{
-    background: #f40613 !important;
-    border: 0 !important;
-    color: white !important;
-    background: white !important;
-    color: #221f1f !important;
+.start {
+  background: #f40613 !important;
+  border: 0 !important;
+  color: white !important;
+  background: white !important;
+  color: #221f1f !important;
 }
 
-.option{
-    background:transparent;
-    border: solid 1px gray;
-    color: gray;
-    margin:10px;
+.option {
+  background: transparent;
+  border: solid 1px gray;
+  color: gray;
+  margin: 10px;
 }
 
 .view {
@@ -162,7 +161,7 @@ h1 {
   font-family: Netflix-Bold;
 }
 
-p{
+p {
   margin-bottom: 30px;
   color: rgb(216, 216, 216);
   font-size: 20px;
