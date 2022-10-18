@@ -103,6 +103,7 @@ button {
     transform: rotateY(0deg) !important;
     cursor: pointer;
     border: white 3px solid !important;
+    box-shadow: 0 0 10px #ffffff;
   }
 
   &:nth-child(1) {

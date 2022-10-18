@@ -128,6 +128,8 @@ button:hover {
           transform: rotateY(0deg) !important;
   cursor: pointer;
   border: white 3px solid !important;
+  -webkit-box-shadow: 0 0 10px #ffffff;
+          box-shadow: 0 0 10px #ffffff;
 }
 
 .box:nth-child(1) {
