@@ -27,7 +27,7 @@ body {
 }
 
 .page-width {
-  max-width: 1700px;
+  max-width: 1800px;
   width: 100%;
   margin: 0 auto;
   padding-left: 5%;
@@ -60,6 +60,10 @@ main {
   transition: 0.2s ease-in-out;
 }
 
+.button-container{
+  width: 100%;
+  max-width: 1000px;
+}
 button {
   font-size: 20px;
   padding-top: 12px;
@@ -77,6 +81,48 @@ button {
     color: #221f1f;
   }
 }
+
+.box-container{
+  display: flex;
+  perspective: 100px;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  animation: turn-to-circle 2s 1s forwards;
+  transition: 0.3s ease-in-out;
+  
+
+  &:nth-child(1){
+    background: #f40613;
+    transform: translateX(100%);
+    background: url(./got.webp);
+    background-size: cover;
+    background-position: center;
+  }
+
+  &:nth-child(2){
+    background: #f40613;
+    background: url(./stranger-things.jpeg);
+    background-position: center;
+    background-size: cover !important;
+    width: 150px;
+  }
+  
+
+  &:nth-child(3){
+    background: #f40613;
+    transform: translateX(-100%);
+    background: url(./big-mouth.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+
 
 .start{
     background: #f40613 !important;

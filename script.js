@@ -45,4 +45,35 @@ window.onload = () => {
       }
     };
   }
+
+  const boxContainer = document.querySelector(".box-container");
+  const box1 = document.querySelector(".box1");
+  const box2 = document.querySelector(".box2");
+  const box3 = document.querySelector(".box3");
+
+  setTimeout(() => {
+    box1.style.transform = "translateX(0%)";
+    box3.style.transform = "translateX(0%)";
+  }, 100);
+
+  setTimeout(() => {
+    box1.style.transform = "rotateY(5deg)";
+    box3.style.transform = "rotateY(-5deg)";
+  }, 150);
+
+  /*setTimeout(() => {
+    boxContainer.style.gap = "8px";
+  }, 600);
+
+  setTimeout(() => {
+    box2.style.transform = "translateY(-120%)";
+  }, 1500);
+
+  setTimeout(() => {
+    box3.style.transform = "translateX(-100%)"
+  },2500);
+
+  setTimeout(() => {
+    box2.style.transform = "translateX(120%)";
+  }, 3500);*/
 };

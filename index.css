@@ -33,7 +33,7 @@ body {
 }
 
 .page-width {
-  max-width: 1700px;
+  max-width: 1800px;
   width: 100%;
   margin: 0 auto;
   padding-left: 5%;
@@ -73,6 +73,11 @@ main {
   transition: 0.2s ease-in-out;
 }
 
+.button-container {
+  width: 100%;
+  max-width: 1000px;
+}
+
 button {
   font-size: 20px;
   padding-top: 12px;
@@ -90,6 +95,51 @@ button {
 button:hover {
   background: white;
   color: #221f1f;
+}
+
+.box-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-perspective: 100px;
+          perspective: 100px;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  -webkit-animation: turn-to-circle 2s 1s forwards;
+          animation: turn-to-circle 2s 1s forwards;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.box:nth-child(1) {
+  background: #f40613;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  background: url(./got.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.box:nth-child(2) {
+  background: #f40613;
+  background: url(./stranger-things.jpeg);
+  background-position: center;
+  background-size: cover !important;
+  width: 150px;
+}
+
+.box:nth-child(3) {
+  background: #f40613;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  background: url(./big-mouth.jpeg);
+  background-size: cover;
+  background-position: center;
 }
 
 .start {
