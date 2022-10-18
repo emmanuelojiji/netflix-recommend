@@ -96,6 +96,11 @@ button {
   height: 200px;
   animation: turn-to-circle 2s 1s forwards;
   transition: 1s ease-in-out;
+  border-radius: 5px;
+  &:hover{
+    width: 300px;
+    transition: 0.3s;
+  }
   
 
   &:nth-child(1){

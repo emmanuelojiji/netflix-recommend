@@ -52,14 +52,18 @@ window.onload = () => {
   const box3 = document.querySelector(".box3");
 
   setTimeout(() => {
-    boxContainer.style.opacity = "1";
     box1.style.transform = "translateX(0%)";
     box3.style.transform = "translateX(0%)";
   }, 500);
 
   setTimeout(() => {
+    boxContainer.style.opacity = "1";
+  }, 600);
+
+  setTimeout(() => {
     box1.style.transform = "rotateY(5deg)";
     box3.style.transform = "rotateY(-5deg)";
+   
   }, 550);
 
   /*setTimeout(() => {

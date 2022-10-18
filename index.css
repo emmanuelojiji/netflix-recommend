@@ -117,6 +117,13 @@ button:hover {
           animation: turn-to-circle 2s 1s forwards;
   -webkit-transition: 1s ease-in-out;
   transition: 1s ease-in-out;
+  border-radius: 5px;
+}
+
+.box:hover {
+  width: 300px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .box:nth-child(1) {
