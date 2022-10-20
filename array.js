@@ -1,32 +1,25 @@
 export const productions = [
   {
-    name: "Orpan",
-    rating: 4.5,
-    genre: "horror",
-    rating: 5
+    name: "Bodyguard",
+    image: "",
+    category: "series",
+    genre: "crime",
+    year: 2018,
+    seasons: 1,
+    episodes: 6,
+    rating: 1,
+    cast: "",
   },
 
   {
-    name: "Michael Jackson",
-    rating: 4.5,
-    genre: "thriller",
-    type: "tv",
-    rating: 2
-  },
-
-  {
-    name: "That's so Raven",
-    rating: 4.5,
-    genre: "thriller",
-    type: "tv",
-    rating: 3
-  },
-
-  {
-    name: "Michael Jackson",
-    rating: 4.5,
-    genre: "thriller",
-    type:"movie",
-    rating:5
+    name: "Peaky Blinders",
+    image: "",
+    category: "series",
+    genre: "crime",
+    year: 2022,
+    seasons: 1,
+    episodes: 6,
+    rating: 1,
+    cast: "",
   },
 ];

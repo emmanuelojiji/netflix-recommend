@@ -190,12 +190,12 @@ p {
   height: 500px;
   width: 100%;
   max-width: 400px;
-  background: black;
+  background: rgb(10, 10, 10);
   border-radius: 5px;
   margin-bottom: 50px;
 
   h1,p{
-  color: white;
+  color: white !important;
   }
 
   .img{

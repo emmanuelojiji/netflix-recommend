@@ -227,13 +227,13 @@ p {
   height: 500px;
   width: 100%;
   max-width: 400px;
-  background: black;
+  background: #0a0a0a;
   border-radius: 5px;
   margin-bottom: 50px;
 }
 
 .recommendation-container h1, .recommendation-container p {
-  color: white;
+  color: white !important;
 }
 
 .recommendation-container .img {
