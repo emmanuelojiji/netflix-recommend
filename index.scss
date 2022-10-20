@@ -86,7 +86,7 @@ button {
   cursor: pointer;
   transition: 0.3s ease-in-out;
   border: 0;
-  color: white !important;
+  color: #221f1f;
 
   &:hover {
     background: white;
@@ -192,9 +192,12 @@ p {
   max-width: 400px;
   background: black;
   border-radius: 5px;
+  margin-bottom: 50px;
 
+  h1,p{
   color: white;
-  
+  }
+
   .img{
     height: 300px;
     width: 100%;

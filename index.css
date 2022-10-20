@@ -100,7 +100,7 @@ button {
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
   border: 0;
-  color: white !important;
+  color: #221f1f;
 }
 
 button:hover {
@@ -229,6 +229,10 @@ p {
   max-width: 400px;
   background: black;
   border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.recommendation-container h1, .recommendation-container p {
   color: white;
 }
 
