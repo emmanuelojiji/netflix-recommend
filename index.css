@@ -63,7 +63,7 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: fixed;
-  background: #221f1f !important;
+  background: #221f1f;
   z-index: 3;
 }
 
@@ -230,7 +230,7 @@ p {
   height: 500px;
   width: 100%;
   max-width: 400px;
-  background: #0a0a0a;
+  background: #221f1f;
   border-radius: 5px;
   margin-bottom: 50px;
 }
@@ -255,6 +255,15 @@ p {
   color: white !important;
 }
 
+.recommendation-container h2 {
+  margin-bottom: 20px !important;
+}
+
+.recommendation-container p {
+  font-size: 14px;
+  line-height: 2;
+}
+
 .recommendation-container .img {
   height: 300px;
   width: 100%;
@@ -262,5 +271,6 @@ p {
   background-size: cover;
   background-position: center;
   border: 0 !important;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=index.css.map */

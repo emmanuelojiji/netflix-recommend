@@ -53,7 +53,7 @@ header {
   display: flex;
   justify-content: space-between;
   position: fixed;
-  background: #221f1f !important;
+  background: #221f1f;
   z-index: 3;
 
   .avatar {
@@ -193,9 +193,10 @@ p {
   height: 500px;
   width: 100%;
   max-width: 400px;
-  background: rgb(10, 10, 10);
+  background: #221f1f;
   border-radius: 5px;
   margin-bottom: 50px;
+
 
   .recommendation-info{
     display: flex;
@@ -204,6 +205,7 @@ p {
     color: white;
     padding-left: 20px;
     padding-top: 20px;
+  
    
   }
 
@@ -211,6 +213,14 @@ p {
   color: white !important;
   }
 
+  h2{
+    margin-bottom: 20px !important;
+  }
+
+  p{
+    font-size: 14px;
+    line-height: 2;
+  }
   
   .img{
     height: 300px;
@@ -219,5 +229,6 @@ p {
     background-size: cover;
     background-position: center;
     border: 0 !important;
+    border-radius: 5px;
   }
 }

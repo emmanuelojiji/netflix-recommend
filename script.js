@@ -4,6 +4,8 @@ window.onload = () => {
   const option = document.querySelectorAll(".option");
   const optionList = Array.from(option);
   const carousel = document.querySelector(".carousel-container");
+  const resultView = document.querySelector(".result-view");
+  const header = document.querySelector('header')
 
   let initial = 0;
   let resultArray = [];
@@ -49,10 +51,14 @@ window.onload = () => {
           window.confetti({
             spread: 100,
             particleCount: 150,
-            origin: {y: 0.85}
+            origin: { y: 0.85 },
           });
         }, 200);
-        
+
+        main.style.background =
+          "linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./stranger-things.jpeg)";
+
+          header.style.background = "transparent"
       }
     };
   }
@@ -120,5 +126,4 @@ window.onload = () => {
       main.style.background = "#221f1f";
     };
   };
-
 };
