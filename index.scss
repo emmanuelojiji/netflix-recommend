@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-align: center;
 }
 
 @font-face {
@@ -29,6 +28,10 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+}
+
+h1,h2,h3{
+  font-family: "Netflix-Bold";
 }
 
 .page-width {
@@ -194,10 +197,21 @@ p {
   border-radius: 5px;
   margin-bottom: 50px;
 
+  .recommendation-info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+   
+  }
+
   h1,p{
   color: white !important;
   }
 
+  
   .img{
     height: 300px;
     width: 100%;

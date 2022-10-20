@@ -46,7 +46,11 @@ window.onload = () => {
 
       if (optionList[i].classList.contains("final")) {
         setTimeout(() => {
-          jsConfetti.addConfetti();
+          window.confetti({
+            spread: 100,
+            particleCount: 150,
+            origin: {y: 0.85}
+          });
         }, 200);
         
       }
@@ -117,5 +121,4 @@ window.onload = () => {
     };
   };
 
-  const jsConfetti = new JSConfetti();
 };
