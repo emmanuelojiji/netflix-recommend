@@ -45,7 +45,10 @@ window.onload = () => {
       }
 
       if (optionList[i].classList.contains("final")) {
-        jsConfetti.addConfetti();
+        setTimeout(() => {
+          jsConfetti.addConfetti();
+        }, 200);
+        
       }
     };
   }
@@ -58,16 +61,16 @@ window.onload = () => {
   setTimeout(() => {
     box1.style.transform = "translateX(0%)";
     box3.style.transform = "translateX(0%)";
-  }, 500);
+  }, 100);
 
   setTimeout(() => {
     boxContainer.style.opacity = "1";
-  }, 600);
+  }, 300);
 
   setTimeout(() => {
     box1.style.transform = "rotateY(5deg)";
     box3.style.transform = "rotateY(-5deg)";
-  }, 550);
+  }, 100);
 
   /*setTimeout(() => {
     boxContainer.style.gap = "8px";
