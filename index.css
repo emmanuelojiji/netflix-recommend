@@ -103,7 +103,7 @@ button {
 
 button:hover {
   background: white;
-  color: #221f1f;
+  color: #f40613 !important;
 }
 
 .box-container {
