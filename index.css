@@ -21,6 +21,10 @@
   src: url(./NetflixSans-Light.woff2);
 }
 
+body, html {
+  overflow: hidden;
+}
+
 body {
   background: #221f1f;
   display: -webkit-box;
