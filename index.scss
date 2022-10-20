@@ -50,6 +50,8 @@ header {
   display: flex;
   justify-content: space-between;
   position: fixed;
+  background: #221f1f !important;
+  z-index: 3;
 
   .avatar {
     width: 35px;

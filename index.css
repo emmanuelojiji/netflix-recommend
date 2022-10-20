@@ -60,6 +60,8 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: fixed;
+  background: #221f1f !important;
+  z-index: 3;
 }
 
 header .avatar {
