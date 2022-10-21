@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
 }
 
 @font-face {
@@ -77,6 +79,7 @@ main {
 .button-container {
   width: 100%;
   max-width: 1000px;
+  text-align:center;
 }
 button {
   font-size: 20px;
@@ -167,6 +170,10 @@ button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  &.view-1{
+    text-align: center;
+  }
 }
 
 h1 {
